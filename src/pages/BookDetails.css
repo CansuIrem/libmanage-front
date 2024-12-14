@@ -1,0 +1,104 @@
+.book-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #a3d2a3;
+}
+
+.book-details-box {
+  background-color: #497b4e;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: white;
+  width: 500px;
+}
+
+.book-details-box h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.book-field {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.book-field label {
+  display: block;
+  margin-bottom: 5px;
+  color: white; /* Label renk düzenlemesi */
+}
+
+.book-field input {
+  width: calc(100% - 16px); /* Kenar boşluklarına göre düzenleme */
+  padding: 8px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #fff; /* İçerik okunabilirliği için */
+}
+
+.buttons {
+  display: flex;
+  justify-content: center; /* Butonları merkezde hizala */
+  flex-wrap: wrap; /* Taşan butonlar bir alt satıra geçer */
+  gap: 10px; /* Butonlar arasındaki boşluk */
+  margin-top: 20px; /* Üst boşluk */
+}
+
+.buttons button {
+  padding: 10px 20px;
+  background-color: #315b38;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 100px; /* Tüm butonların boyutunu eşit tut */
+}
+
+.buttons button:hover {
+  background-color: #244428;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-box {
+  background-color: #497b4e;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  width: 300px;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.popup-buttons button {
+  padding: 10px 20px;
+  background-color: #315b38;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-buttons button:hover {
+  background-color: #244428;
+}
