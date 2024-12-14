@@ -1,0 +1,71 @@
+.system-menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #a3d2a3; /* Arka plan rengi */
+}
+
+.system-menu-box {
+  background-color: #497b4e;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: white;
+  width: 300px;
+}
+
+.system-menu-box h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.menu-buttons {
+  display: flex;
+  flex-direction: column; /* Butonları dikey hizala */
+  align-items: stretch; /* Butonların kutuya tam oturmasını sağla */
+  gap: 15px; /* Butonlar arası boşluk */
+  margin-top: 20px;
+}
+
+.menu-buttons button {
+  width: 100%; /* Butonları kutunun tam genişliğine oturt */
+  height: 50px; /* Tüm butonlar için aynı yükseklik */
+  padding: 0; /* İç boşluğu sıfırla, yüksekliği kullanıyoruz */
+  background-color: #315b38;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.menu-buttons button:hover {
+  background-color: #244428;
+}
+
+.back-button {
+  margin-top: 20px; /* Menü buton grubundan biraz boşluk bırak */
+}
+
+.back-button button {
+  width: 100%; /* Genişliği diğer butonlarla eşleştir */
+  height: 50px; /* Aynı yükseklik */
+  padding: 0; /* İç boşluğu sıfırla */
+  background-color: #315b38;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.back-button button:hover {
+  background-color: #244428;
+}
+

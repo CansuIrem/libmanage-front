@@ -1,0 +1,15 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Tam ekran yüksekliği */
+    background: linear-gradient(135deg, #a3d2a3, #497b4e); /* Gradient arka plan */
+
+  }
+  
+  .home-logo {
+    max-width: 50%; /* Görselin genişliği ekran boyutuna göre ayarlanır */
+    max-height: 50%; /* Görselin yüksekliği ekran boyutuna göre ayarlanır */
+    object-fit: contain; /* Görsel oranları korunur */
+  }
+  
